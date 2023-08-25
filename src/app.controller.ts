@@ -14,4 +14,9 @@ export class AppController {
   getTransport(): string {
     return 'Transporte nuevo';
   }
+
+  @Get('envios')
+  getEnvios(): string {
+    return 'Envio nuevo';
+  }
 }
